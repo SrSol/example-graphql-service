@@ -1,0 +1,27 @@
+{
+  "name": "graphql-service",
+  "version": "1.0.0",
+  "description": "A tutorial of graphql.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "develop": "nodemon ./index.js ./config/develop_variables.env"
+  },
+  "keywords": [
+    "graphql"
+  ],
+  "author": "KarmaPulse <mrsun21@gmail.com> (Tonatiuh Garcia <mrsun21@gmail.com>)",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^0.10.1",
+    "graphql-server-koa": "^0.8.0",
+    "graphql-tools": "^1.2.2",
+    "kcors": "^2.2.1",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.0",
+    "moment": "^2.18.1",
+    "mongoose": "^4.10.5",
+    "winston": "^2.3.1"
+  }
+}

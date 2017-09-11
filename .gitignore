@@ -1,0 +1,82 @@
+# --------------------
+# OSX Files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --------------------
+# Eclipse or Nodeclipse "Enide Studio" Files
+# --------------------
+# recommended to add to Git SCM
+# or generate with `nodeclipse -p` command
+.project
+.settings/
+.*.md.html
+
+
+# --------------------
+# IntelliJ Files
+# --------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# --------------------
+# Netbeans Files
+# --------------------
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --------------------
+# SublimeText Files
+# --------------------
+*.sublime-project
+*.sublime-workspace
+
+# --------------------
+# Node Files
+# --------------------
+.nodemonignore
+npm-debug.log
+node_modules/
+package-lock.json
+
+# --------------------
+# SASS Files
+# --------------------
+.sass-cache/
+
+# --------------------
+# Bower Files
+# --------------------
+.bower-*/
+bower_components
+
+# --------------------
+# Config Files
+# --------------------
+config/production_variables.env
+config/develop_variables.env
+
+# --------------------
+# Other Files
+# --------------------
+*.tar
+
+# --------------------
+# Vim files
+# --------------------
+*~
+*.swp
+*.swo

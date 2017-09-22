@@ -7,34 +7,26 @@ module.exports = `
         courses: [Course]
     }
 
-    input TeacherGroupsCreate {
+    input TeacherGroups {
         _id: ID
     }
 
-    input TeacherCoursesCreate {
-        _id: ID
-    }
-
-    input TeacherGroupsUpdate {
-        _id: ID
-    }
-
-    input TeacherCoursesUpdate {
+    input TeacherCourses {
         _id: ID
     }
 
     input TeacherCreate {
         name: String!
         last_name: String
-        groups: [TeacherGroupsCreate]
-        courses: [TeacherCoursesCreate]
+        groups: [TeacherGroups]
+        courses: [TeacherCourses]
     }
 
     input TeacherUpdate {
         _id: ID!
         name: String
         last_name: String
-        groups: [TeacherGroupsUpdate]
-        courses: [TeacherCoursesUpdate]
+        groups: [TeacherGroups]
+        courses: [TeacherCourses]
     }
 `;

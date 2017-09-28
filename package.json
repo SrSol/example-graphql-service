@@ -10,7 +10,7 @@
   "keywords": [
     "graphql"
   ],
-  "author": "KarmaPulse <mrsun21@gmail.com> (Tonatiuh Garcia <mrsun21@gmail.com>)",
+  "author": "Tonatiuh Garcia <mrsun21@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "graphql": "^0.10.1",
